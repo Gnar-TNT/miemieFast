@@ -1,5 +1,6 @@
 const axios = require('axios');
-
+// 间隔时间和t自行修改
+// t必填！！！
 function fast() {
   axios.get('https://cat-match.easygame2021.com/sheep/v1/game/game_over?rank_score=1&rank_state=1&rank_time=0&rank_role=1&skin=1', {
     headers: {
@@ -16,9 +17,7 @@ function fast() {
     .catch(error => {
       console.log(error);
     });
-
 }
-// 间隔时间和t自行修改
 setInterval(() => {
   fast()
 }, 200)
