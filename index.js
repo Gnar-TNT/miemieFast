@@ -1,4 +1,6 @@
 const axios = require('axios');
+let ok = 0;
+let err = 0;
 // 间隔时间和t自行修改
 // t必填！！！
 function fast() {
@@ -12,12 +14,19 @@ function fast() {
     }
   })
     .then(res => {
+      ok++;
       console.log(res.data);
     })
     .catch(error => {
-      console.log(error);
-    });
+      err++;
+    })
+    .finally(() => {
+      console.log(`发送成功====================================================================${ok}次`);
+      console.log(`发送失败====================================================================${err}次`);
+    })
+    ;
 }
+
 setInterval(() => {
   fast()
-}, 200)
+}, 50)
