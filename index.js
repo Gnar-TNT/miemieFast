@@ -10,7 +10,7 @@ function fast() {
       'Accept-Encoding': 'gzip,deflate,br',
       'Connection': 'keep-alive',
       'User-Agent': 'Mozilla/5.0 (iPhone; CPU iPhone OS 13_2_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.3 Mobile/15E148 Safari/604.1',
-      't': 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE2OTQzMjgyMjMsIm5iZiI6MTY2MzIyNjAyMywiaWF0IjoxNjYzMjI0MjIzLCJqdGkiOiJDTTpjYXRfbWF0Y2g6bHQxMjM0NTYiLCJvcGVuX2lkIjoiIiwidWlkIjo4MzczNzkwNSwiZGVidWciOiIiLCJsYW5nIjoiIn0.MtMiSnlyfoI_7EngTiKMjnQjv2tBJijxertfZOM6PtY'
+      't': 'xxx'
     }
   })
     .then(res => {
