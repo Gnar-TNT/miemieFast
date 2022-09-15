@@ -1,0 +1,20 @@
+{
+  "name": "miemiefast",
+  "version": "1.0.0",
+  "description": "这是一个用于学习交流的程序",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "fast": "node ./index.js"
+  },
+  "keywords": [
+    "羊了个羊",
+    "快速",
+    "辅助"
+  ],
+  "author": "永夜纳尔",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.27.2"
+  }
+}
